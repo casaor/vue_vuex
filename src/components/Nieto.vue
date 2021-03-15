@@ -1,7 +1,7 @@
 <template>
 
 
-
+  <fade>
     <div class="card">
       <div class="card-body">
         <h5 class="card-title text-info">{{ movie.title }}</h5>
@@ -10,6 +10,7 @@
         <p class="card-text">{{ movie.description }}</p>
       </div>
     </div>
+  </fade>
 
 
   
